@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+h4, h3, h2, h1, p, ul {
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    background: #EAE4D5;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+button{
+    background: #B6B09F;
+    border: solid white 10px;
+    border-radius: 29px;
+    height: 100px;
+    color: white;
+}
+
+.active{
+    background: #d6cfba;
+}
+
+button:hover{
+    background: #d6cfba;
+}
+
+.resume-container{
+    margin: auto;
+    background: #B6B09F;
+    border: solid white 10px;
+    border-radius: 29px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: grid;
+    grid-template-areas:
+    "buttons-area"
+    "pfp";
+}
+
+.buttons-area{
+    grid-area: buttons-area;
+    display: grid;
+    grid-template-columns: repeat(3, 197px);
+    background: white;
+    border-radius: 29px;
+    margin: -10px;
+}
+
+.pfp{
+    grid-area: pfp;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-items: center;
+    gap: 0;
+}
+
+.black-line{
+    background: black;
+    height: 100px;
+    width: 100%;
+}
+
+.footer-content {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+
