@@ -8,14 +8,14 @@ h4, h3, h2, h1, p, ul {
 
 body{
     margin: 0;
-    background: #EAE4D5;
+    background: #F6F0D7;
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
 
 button{
-    background: #B6B09F;
+    background: #89986D;
     border: solid white 10px;
     border-radius: 29px;
     height: 100px;
@@ -23,16 +23,16 @@ button{
 }
 
 .active{
-    background: #d6cfba;
+    background: #C5D89D;
 }
 
 button:hover{
-    background: #d6cfba;
+    background: #C5D89D;
 }
 
 .resume-container{
     margin: auto;
-    background: #B6B09F;
+    background: #9CAB84;
     border: solid white 10px;
     border-radius: 29px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -40,6 +40,7 @@ button:hover{
     grid-template-areas:
     "buttons-area"
     "pfp";
+    color: white;
 }
 
 .buttons-area{
@@ -62,7 +63,7 @@ button:hover{
 }
 
 .black-line{
-    background: black;
+    background: #89986D;
     height: 100px;
     width: 100%;
 }
